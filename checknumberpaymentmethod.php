@@ -201,7 +201,7 @@ function checknumberpaymentmethod_civicrm_buildForm($formName, &$form) {
     ) {
       return;
     }
-    if (!empty($form->_defaultValues['payment_instrument_id'])) {
+    if (!empty($form->_defaultValues['payment_instrument_id']) && empty($form->_mode)) {
       _checknumberpaymentmethod_add_payment_fields(
         $form,
         $form->_defaultValues['payment_instrument_id']
