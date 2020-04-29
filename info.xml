@@ -2,7 +2,7 @@
 <extension key="com.megaphonetech.checknumberpaymentmethod" type="module">
   <file>checknumberpaymentmethod</file>
   <name>Payment Method - Check Number</name>
-  <description>When you enter a new contribution using CiviCRM's back end, and if you select Check as payment method, you can enter a check number. However, some recipients have multiple bank accounts and need to separate their payment methods. This extension allows you to specify one or more payment methods as checks so you can enter a check number when entering contributions.</description>
+  <description>This extension allows you to specify one or more payment methods as checks so you can enter a check number when entering contributions.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Jon Goldberg</author>
