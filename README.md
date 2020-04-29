@@ -39,7 +39,7 @@ cv en checknumberpaymentmethod
 
 Upon installation, you can declare certain payment methods to be checks. Visit **Administer » CiviContribute » CiviContribute Component Settings**. Notice the new field called **Check-Payment Instruments** where you can declare one or more payment methods to be *checks*. When you create a new contribution and you select the appropriate payment method, you will see a field where you can enter a check number.
 
-![Screenshot of CiviContribute Component Settings screen](/images/Screenshot_CiviContribute-Component Settings.png)
+![Screenshot of CiviContribute Component Settings screen](/images/Screenshot_CiviContribute-Component-Settings.png)
 ![Screenshot of user adding a cash contribution, note there is no field for check number](/images/cash-contribution.png)
 ![Screenshot of user adding contribution to checking account, note the field for check number](/images/checking-1-contribution.png)
 ![Screenshot of user adding contribution to a second checking account, also with a field for check number](/images/checking-2-contribution.png)
