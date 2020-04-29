@@ -2,7 +2,7 @@
 
 ![Screenshot](/images/screenshot.png)
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
+When you enter a new contribution using CiviCRM's back end, and if you select Check as payment method, you can enter a check number. However, some recipients have multiple bank accounts and need to separate their payment methods. This extension allows you to specify one or more payment methods as checks so you can enter a check number when entering contributions.
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
@@ -22,7 +22,7 @@ install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
 cd <extension-dir>
-cv dl com.megaphonetech.checknumberpaymentmethod@https://github.com/FIXME/com.megaphonetech.checknumberpaymentmethod/archive/master.zip
+cv dl com.megaphonetech.checknumberpaymentmethod@https://github.com/MegaphoneJon/checknumberpaymentmethod/archive/master.zip
 ```
 
 ## Installation (CLI, Git)
@@ -31,14 +31,15 @@ Sysadmins and developers may clone the [Git](https://en.wikipedia.org/wiki/Git) 
 install it with the command-line tool [cv](https://github.com/civicrm/cv).
 
 ```bash
-git clone https://github.com/FIXME/com.megaphonetech.checknumberpaymentmethod.git
+git clone https://github.com/MegaphoneJon/checknumberpaymentmethod.git
 cv en checknumberpaymentmethod
 ```
 
 ## Usage
 
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
+Upon installation, you can declare certain payment methods to be checks. Visit **Administer » CiviContribute » CiviContribute Component Settings**. Notice the new field called **Check-Payment Instruments** where you can declare one or more payment methods to be *checks*. When you create a new contribution and you select the appropriate payment method, you will see a field where you can enter a check number.
+
+![Screenshot of CiviContribute Component Settings screen](/images/Screenshot_CiviContribute-Component-Settings.png)
+![Screenshot of user adding contribution to a second checking account, also with a field for check number](/images/checking-contribution.png)
 
 ## Known Issues
-
-(* FIXME *)
