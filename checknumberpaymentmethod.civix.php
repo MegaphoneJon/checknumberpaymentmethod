@@ -6,10 +6,10 @@
  * The ExtensionUtil class provides small stubs for accessing resources of this
  * extension.
  */
-class CRM_EntityTemplates_ExtensionUtil {
+class CRM_Checknumberpaymentmethod_ExtensionUtil {
   const SHORT_NAME = 'checknumberpaymentmethod';
   const LONG_NAME = 'com.megaphonetech.checknumberpaymentmethod';
-  const CLASS_PREFIX = 'CRM_EntityTemplates';
+  const CLASS_PREFIX = 'CRM_Checknumberpaymentmethod';
 
   /**
    * Translate a string using the extension's domain.
@@ -77,7 +77,7 @@ class CRM_EntityTemplates_ExtensionUtil {
 
 }
 
-use CRM_EntityTemplates_ExtensionUtil as E;
+use CRM_Checknumberpaymentmethod_ExtensionUtil as E;
 
 /**
  * (Delegated) Implements hook_civicrm_config().
@@ -206,14 +206,14 @@ function _checknumberpaymentmethod_civix_civicrm_upgrade($op, CRM_Queue_Queue $q
 }
 
 /**
- * @return CRM_EntityTemplates_Upgrader
+ * @return CRM_Checknumberpaymentmethod_Upgrader
  */
 function _checknumberpaymentmethod_civix_upgrader() {
-  if (!file_exists(__DIR__ . '/CRM/EntityTemplates/Upgrader.php')) {
+  if (!file_exists(__DIR__ . '/CRM/Checknumberpaymentmethod/Upgrader.php')) {
     return NULL;
   }
   else {
-    return CRM_EntityTemplates_Upgrader_Base::instance();
+    return CRM_Checknumberpaymentmethod_Upgrader_Base::instance();
   }
 }
 
